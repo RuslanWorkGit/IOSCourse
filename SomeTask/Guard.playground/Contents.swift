@@ -81,3 +81,6 @@ case 6 where isWeekend: print("Satuday")
 case 7 where isWeekend: print("Sunday")
 default: print("Unknown day of week")
 }
+
+//new comment
+
