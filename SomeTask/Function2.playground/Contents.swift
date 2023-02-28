@@ -152,7 +152,7 @@ func returnNumber(numA: Int, numB: Int) -> Int{
     }
 }
 
-//returnNumber(numA: 110, numB: 22)
+returnNumber(numA: 30, numB: 22)
 
 
 func powerOfTwo(number: Float) -> Float {
