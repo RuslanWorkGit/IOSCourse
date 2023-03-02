@@ -82,20 +82,27 @@ class Phone {
 
 let myPhone = Phone(n: 12, m: "Iphone", w: 187)
 let friendPhone = Phone(n: 10, m: "Iphone", w: 192)
+let newPhone = Phone(n: 19192, m: "Iphone")
+let unkownPhone  = Phone()
+
+let phoneArray = [myPhone, friendPhone]
+
+//----------------------------------------------------------
 
 print("I have \(myPhone.model) \(myPhone.number) and his weight \(myPhone.weight) gramm")
 print("My friend have \(friendPhone.model) \(friendPhone.number) and his weight \(friendPhone.weight) gramm")
 
-let phoneArray = [myPhone, friendPhone]
+//----------------------------------------------------------
 
 for element in phoneArray {
     element.getNumber()
     element.receiveCall(name: "Ruslan")
 }
 
+//----------------------------------------------------------
+
 myPhone.receiveCall(name: "Ruslan", numberCaller: 0953853457)
 myPhone.sendMessage(sendNumber: [829849842,20840924,092049])
 
-let newPhone = Phone(n: 19192, m: "Iphone", wei: 222)
-let unkownPhone  = Phone()
+//----------------------------------------------------------
 print("This is unknown phone model is \(unkownPhone.model) number is \(unkownPhone.number) and his weight \(unkownPhone.weight) gramm")
