@@ -96,6 +96,13 @@ struct ElectricCar: Vehicle, ElecriceVehicle {
     
 }
 
+extension Int {
+    func myPow(_ power: Int) -> Int {
+        guard power >= 0 else { return 0}
+        return power == 0 ? 1 : self * myPow(power - 1)
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
