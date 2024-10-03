@@ -103,11 +103,34 @@ extension Int {
     }
 }
 
+extension String {
+    func isPalindrom() -> Bool {
+        let text = self.lowercased()
+        let filteredText = text.filter { $0.isLetter }
+        let isEcual = filteredText == String(filteredText.reversed())
+        return isEcual
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let num1 = 10
+        let num2 = 2
+        let num3 = 4
         
+        let text = "Hello World"
+        let text1 = "txt"
+        let text2 = "vovov"
+        
+        print(num1.myPow(3))
+        print(num2.myPow(4))
+        print(num3.myPow(3))
+        
+        print(text.isPalindrom())
+        print(text1.isPalindrom())
+        print(text2.isPalindrom())
     }
 
 
