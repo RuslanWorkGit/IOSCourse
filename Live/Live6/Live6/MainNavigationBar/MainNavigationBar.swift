@@ -7,7 +7,16 @@
 
 import UIKit
 
+protocol MainNavigationBarDelegate {
+    func navigationBarButtonPressed()
+}
+
 class MainNavigationBar: BaseUI {
   
+    var delegate: MainNavigationBarDelegate?
+    
+    @IBAction func centralButtonPressed(_ sender: Any) {
+        delegate?.navigationBarButtonPressed()
+    }
 }
 

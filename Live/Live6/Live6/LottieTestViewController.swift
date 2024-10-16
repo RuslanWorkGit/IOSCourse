@@ -8,8 +8,9 @@
 import UIKit
 import Lottie
 
-class LottieTestViewController: UIViewController {
+class LottieTestViewController: UIViewController, MainNavigationBarDelegate {
 
+    @IBOutlet weak var navigationCustomView: MainNavigationBar!
     
     private var animatio: LottieAnimationView?
     
@@ -46,6 +47,15 @@ class LottieTestViewController: UIViewController {
                 print(failure)
             }
         }
+        
+        
+        navigationCustomView.delegate = self
     }
+    
+    func navigationBarButtonPressed() {
+        print("Button Pressed!")
+    }
+    
+
 
 }

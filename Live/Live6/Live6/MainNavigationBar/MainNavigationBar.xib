@@ -22,10 +22,20 @@
                     <rect key="frame" x="395.33333333333331" y="0.0" width="197.66666666666669" height="135"/>
                     <color key="backgroundColor" systemColor="systemGreenColor"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eL-hs-N5f">
+                    <rect key="frame" x="197.66666666666669" y="0.0" width="197.66666666666669" height="135"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Press Me!!"/>
+                    <connections>
+                        <action selector="centralButtonPressed:" destination="-1" eventType="touchUpInside" id="FaE-zm-yT3"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemYellowColor"/>
             <constraints>
+                <constraint firstItem="LCq-wA-DI3" firstAttribute="leading" secondItem="3eL-hs-N5f" secondAttribute="trailing" id="03S-jI-rVc"/>
+                <constraint firstAttribute="bottom" secondItem="3eL-hs-N5f" secondAttribute="bottom" id="0sD-oZ-Y2f"/>
                 <constraint firstItem="LCq-wA-DI3" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/3" id="2Xa-N8-qtJ"/>
                 <constraint firstAttribute="bottom" secondItem="F7w-IN-4xk" secondAttribute="bottom" id="BDb-pG-0sB"/>
                 <constraint firstItem="F7w-IN-4xk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ESU-nL-sDd"/>
@@ -34,6 +44,8 @@
                 <constraint firstAttribute="bottom" secondItem="LCq-wA-DI3" secondAttribute="bottom" id="Rha-xZ-GXO"/>
                 <constraint firstItem="F7w-IN-4xk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UkW-ce-XpX"/>
                 <constraint firstItem="F7w-IN-4xk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/3" id="cYr-Jl-WNd"/>
+                <constraint firstItem="3eL-hs-N5f" firstAttribute="leading" secondItem="F7w-IN-4xk" secondAttribute="trailing" id="hF3-DG-Fo6"/>
+                <constraint firstItem="3eL-hs-N5f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="i78-hK-ulq"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="-138.1679389312977" y="-232.74647887323945"/>

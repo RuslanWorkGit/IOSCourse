@@ -33,7 +33,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k2R-rd-SV4" customClass="MainNavigationBar" customModule="Live6" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="72"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="6E6-tB-xOd"/>
                                 </constraints>
@@ -47,6 +47,9 @@
                             <constraint firstItem="k2R-rd-SV4" firstAttribute="leading" secondItem="r3Y-da-TEP" secondAttribute="leading" id="tCe-1m-XWB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="navigationCustomView" destination="k2R-rd-SV4" id="Gx1-kN-GOD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9L9-I6-TNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
