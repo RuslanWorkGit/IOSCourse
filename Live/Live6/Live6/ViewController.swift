@@ -1,4 +1,3 @@
-
 //
 //  ViewController.swift
 //  Live-6
@@ -39,7 +38,7 @@ class ViewController: UIViewController {
         } completion: { completed in
             self.view.backgroundColor = .black
             UIView.animate(withDuration: 0.5) {
-                self.view.backgroundColor = .green 
+                self.view.backgroundColor = .green
             }
         }
     }

@@ -3,200 +3,151 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BE424D32CBD6D1500D6218D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE424D22CBD6D1500D6218D /* Lottie */; };
-		9BF53B562CBD4EE4006C731D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF53B4A2CBD4EE4006C731D /* AppDelegate.swift */; };
-		9BF53B572CBD4EE4006C731D /* LottieTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF53B502CBD4EE4006C731D /* LottieTestViewController.swift */; };
-		9BF53B582CBD4EE4006C731D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF53B532CBD4EE4006C731D /* SceneDelegate.swift */; };
-		9BF53B592CBD4EE4006C731D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF53B542CBD4EE4006C731D /* ViewController.swift */; };
-		9BF53B5A2CBD4EE4006C731D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF53B4B2CBD4EE4006C731D /* Assets.xcassets */; };
-		9BF53B5B2CBD4EE4006C731D /* house-anim.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BF53B4C2CBD4EE4006C731D /* house-anim.json */; };
-		9BF53B5D2CBD4EE4006C731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF53B4F2CBD4EE4006C731D /* LaunchScreen.storyboard */; };
-		9BF53B5E2CBD4EE4006C731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF53B522CBD4EE4006C731D /* Main.storyboard */; };
+		9BE424FD2CBE6E7800D6218D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE424FC2CBE6E7800D6218D /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BE424D42CBE6D8C00D6218D /* Live-6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Live-6.app"; path = "/Users/ruslanliulka/IOSCourse/Live/Live-6/build/Debug-iphoneos/Live-6.app"; sourceTree = "<absolute>"; };
-		9BF53B4A2CBD4EE4006C731D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BF53B4B2CBD4EE4006C731D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9BF53B4C2CBD4EE4006C731D /* house-anim.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "house-anim.json"; sourceTree = "<group>"; };
-		9BF53B4D2CBD4EE4006C731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BF53B4E2CBD4EE4006C731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9BF53B502CBD4EE4006C731D /* LottieTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieTestViewController.swift; sourceTree = "<group>"; };
-		9BF53B512CBD4EE4006C731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BF53B532CBD4EE4006C731D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BF53B542CBD4EE4006C731D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BE424DE2CBE6E1F00D6218D /* Live6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Live6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9BE424F02CBE6E2000D6218D /* Exceptions for "Live6" folder in "Live6" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9BE424DD2CBE6E1F00D6218D /* Live6 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9BE424E02CBE6E1F00D6218D /* Live6 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9BE424F02CBE6E2000D6218D /* Exceptions for "Live6" folder in "Live6" target */,
+			);
+			path = Live6;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		9B05D0082CB91CB100456C65 /* Frameworks */ = {
+		9BE424DB2CBE6E1F00D6218D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE424D32CBD6D1500D6218D /* Lottie in Frameworks */,
+				9BE424FD2CBE6E7800D6218D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B05D0022CB91CB100456C65 = {
+		9BE424D52CBE6E1F00D6218D = {
 			isa = PBXGroup;
 			children = (
-				9BF53B552CBD4EE4006C731D /* Live-6 */,
+				9BE424E02CBE6E1F00D6218D /* Live6 */,
+				9BE424DF2CBE6E1F00D6218D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9BF53B552CBD4EE4006C731D /* Live-6 */ = {
+		9BE424DF2CBE6E1F00D6218D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BF53B4A2CBD4EE4006C731D /* AppDelegate.swift */,
-				9BF53B4B2CBD4EE4006C731D /* Assets.xcassets */,
-				9BF53B4C2CBD4EE4006C731D /* house-anim.json */,
-				9BF53B4D2CBD4EE4006C731D /* Info.plist */,
-				9BF53B4F2CBD4EE4006C731D /* LaunchScreen.storyboard */,
-				9BF53B502CBD4EE4006C731D /* LottieTestViewController.swift */,
-				9BF53B522CBD4EE4006C731D /* Main.storyboard */,
-				9BF53B532CBD4EE4006C731D /* SceneDelegate.swift */,
-				9BF53B542CBD4EE4006C731D /* ViewController.swift */,
+				9BE424DE2CBE6E1F00D6218D /* Live6.app */,
 			);
-			path = "Live-6";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B05D00A2CB91CB100456C65 /* Live-6 */ = {
+		9BE424DD2CBE6E1F00D6218D /* Live6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B05D01E2CB91CB200456C65 /* Build configuration list for PBXNativeTarget "Live-6" */;
+			buildConfigurationList = 9BE424F12CBE6E2000D6218D /* Build configuration list for PBXNativeTarget "Live6" */;
 			buildPhases = (
-				6BB32A671C0764E506DD8CA8 /* [CP] Check Pods Manifest.lock */,
-				9B05D0072CB91CB100456C65 /* Sources */,
-				9B05D0082CB91CB100456C65 /* Frameworks */,
-				9B05D0092CB91CB100456C65 /* Resources */,
+				9BE424DA2CBE6E1F00D6218D /* Sources */,
+				9BE424DB2CBE6E1F00D6218D /* Frameworks */,
+				9BE424DC2CBE6E1F00D6218D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Live-6";
-			productName = "Live-6";
-			productReference = 9BE424D42CBE6D8C00D6218D /* Live-6.app */;
+			fileSystemSynchronizedGroups = (
+				9BE424E02CBE6E1F00D6218D /* Live6 */,
+			);
+			name = Live6;
+			packageProductDependencies = (
+				9BE424FC2CBE6E7800D6218D /* Lottie */,
+			);
+			productName = Live6;
+			productReference = 9BE424DE2CBE6E1F00D6218D /* Live6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9B05D0032CB91CB100456C65 /* Project object */ = {
+		9BE424D62CBE6E1F00D6218D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					9B05D00A2CB91CB100456C65 = {
+					9BE424DD2CBE6E1F00D6218D = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 9B05D0062CB91CB100456C65 /* Build configuration list for PBXProject "Live-6" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 9BE424D92CBE6E1F00D6218D /* Build configuration list for PBXProject "Live6" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9B05D0022CB91CB100456C65;
+			mainGroup = 9BE424D52CBE6E1F00D6218D;
+			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9BE424D12CBD6D1500D6218D /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				9BE424FB2CBE6E7800D6218D /* XCRemoteSwiftPackageReference "lottie-spm" */,
 			);
-			productRefGroup = 9B05D0022CB91CB100456C65;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9BE424DF2CBE6E1F00D6218D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B05D00A2CB91CB100456C65 /* Live-6 */,
+				9BE424DD2CBE6E1F00D6218D /* Live6 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9B05D0092CB91CB100456C65 /* Resources */ = {
+		9BE424DC2CBE6E1F00D6218D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF53B5A2CBD4EE4006C731D /* Assets.xcassets in Resources */,
-				9BF53B5B2CBD4EE4006C731D /* house-anim.json in Resources */,
-				9BF53B5D2CBD4EE4006C731D /* LaunchScreen.storyboard in Resources */,
-				9BF53B5E2CBD4EE4006C731D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6BB32A671C0764E506DD8CA8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Live-6-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		9B05D0072CB91CB100456C65 /* Sources */ = {
+		9BE424DA2CBE6E1F00D6218D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF53B562CBD4EE4006C731D /* AppDelegate.swift in Sources */,
-				9BF53B572CBD4EE4006C731D /* LottieTestViewController.swift in Sources */,
-				9BF53B582CBD4EE4006C731D /* SceneDelegate.swift in Sources */,
-				9BF53B592CBD4EE4006C731D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		9BF53B4F2CBD4EE4006C731D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BF53B4E2CBD4EE4006C731D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9BF53B522CBD4EE4006C731D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BF53B512CBD4EE4006C731D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		9B05D01F2CB91CB200456C65 /* Debug */ = {
+		9BE424F22CBE6E2000D6218D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -205,7 +156,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 255G24QWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Live-6/Info.plist";
+				INFOPLIST_FILE = Live6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -216,7 +167,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ukrlan.Live-6";
+				PRODUCT_BUNDLE_IDENTIFIER = ukrlan.Live6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -224,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		9B05D0202CB91CB200456C65 /* Release */ = {
+		9BE424F32CBE6E2000D6218D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -233,7 +184,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 255G24QWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Live-6/Info.plist";
+				INFOPLIST_FILE = Live6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -244,7 +195,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ukrlan.Live-6";
+				PRODUCT_BUNDLE_IDENTIFIER = ukrlan.Live6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -252,7 +203,7 @@
 			};
 			name = Release;
 		};
-		9B05D0212CB91CB200456C65 /* Debug */ = {
+		9BE424F42CBE6E2000D6218D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		9B05D0222CB91CB200456C65 /* Release */ = {
+		9BE424F52CBE6E2000D6218D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,20 +325,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B05D0062CB91CB100456C65 /* Build configuration list for PBXProject "Live-6" */ = {
+		9BE424D92CBE6E1F00D6218D /* Build configuration list for PBXProject "Live6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B05D0212CB91CB200456C65 /* Debug */,
-				9B05D0222CB91CB200456C65 /* Release */,
+				9BE424F42CBE6E2000D6218D /* Debug */,
+				9BE424F52CBE6E2000D6218D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B05D01E2CB91CB200456C65 /* Build configuration list for PBXNativeTarget "Live-6" */ = {
+		9BE424F12CBE6E2000D6218D /* Build configuration list for PBXNativeTarget "Live6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B05D01F2CB91CB200456C65 /* Debug */,
-				9B05D0202CB91CB200456C65 /* Release */,
+				9BE424F22CBE6E2000D6218D /* Debug */,
+				9BE424F32CBE6E2000D6218D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -395,9 +346,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9BE424D12CBD6D1500D6218D /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+		9BE424FB2CBE6E7800D6218D /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			repositoryURL = "https://github.com/airbnb/lottie-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 4.5.0;
@@ -406,12 +357,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9BE424D22CBD6D1500D6218D /* Lottie */ = {
+		9BE424FC2CBE6E7800D6218D /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9BE424D12CBD6D1500D6218D /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			package = 9BE424FB2CBE6E7800D6218D /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9B05D0032CB91CB100456C65 /* Project object */;
+	rootObject = 9BE424D62CBE6E1F00D6218D /* Project object */;
 }
