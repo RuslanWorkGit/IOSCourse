@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuBlock" customModule="HM_6" customModuleProvider="target">
+            <connections>
+                <outlet property="allView" destination="iN0-l3-epB" id="5HU-sh-qrk"/>
+                <outlet property="icon" destination="sXI-7w-gbk" id="WW9-tb-5e4"/>
+                <outlet property="text" destination="71F-zr-ndJ" id="ouU-7m-19O"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="181"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sXI-7w-gbk">
+                    <rect key="frame" x="8" y="8" width="80.333333333333329" height="80.333333333333329"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="sXI-7w-gbk" secondAttribute="height" multiplier="8:8" id="qZ2-r0-Na1"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71F-zr-ndJ">
+                    <rect key="frame" x="8" y="112.33333333333333" width="386" height="25.333333333333329"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sXI-7w-gbk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.2" id="4jE-Aq-Hot"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="71F-zr-ndJ" secondAttribute="trailing" constant="8" id="8rw-Pq-CTl"/>
+                <constraint firstItem="71F-zr-ndJ" firstAttribute="top" secondItem="sXI-7w-gbk" secondAttribute="bottom" constant="24" id="FQe-AL-mRP"/>
+                <constraint firstItem="sXI-7w-gbk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="NdF-cd-Lyz"/>
+                <constraint firstItem="71F-zr-ndJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Pkl-c8-Afw"/>
+                <constraint firstItem="sXI-7w-gbk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="xSe-l8-OrH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="42.748091603053432" y="-216.5492957746479"/>
+        </view>
+    </objects>
+</document>
