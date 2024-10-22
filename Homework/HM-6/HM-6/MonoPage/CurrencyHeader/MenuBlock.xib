@@ -31,15 +31,27 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knE-Sr-Dpn">
+                    <rect key="frame" x="0.0" y="0.0" width="402" height="181"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="egY-MB-Ube"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="sXI-7w-gbk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.2" id="4jE-Aq-Hot"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="71F-zr-ndJ" secondAttribute="trailing" constant="8" id="8rw-Pq-CTl"/>
+                <constraint firstItem="knE-Sr-Dpn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9WL-B0-Dv8"/>
                 <constraint firstItem="71F-zr-ndJ" firstAttribute="top" secondItem="sXI-7w-gbk" secondAttribute="bottom" constant="24" id="FQe-AL-mRP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="knE-Sr-Dpn" secondAttribute="trailing" id="HaU-xf-MEV"/>
                 <constraint firstItem="sXI-7w-gbk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="NdF-cd-Lyz"/>
                 <constraint firstItem="71F-zr-ndJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Pkl-c8-Afw"/>
+                <constraint firstItem="knE-Sr-Dpn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z3m-ih-Zae"/>
+                <constraint firstAttribute="bottom" secondItem="knE-Sr-Dpn" secondAttribute="bottom" id="Zaw-fy-tyd"/>
                 <constraint firstItem="sXI-7w-gbk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="xSe-l8-OrH"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

@@ -7,7 +7,13 @@
 
 import UIKit
 
+protocol MenuBlockDelegate {
+    func menuBlockButtonPressed()
+}
+
 class MenuBlock: BaseUI {
+    
+    var delegate: MenuBlockDelegate?
     
     @IBOutlet var allView: UIView!
     @IBOutlet weak var icon: UIImageView!
@@ -20,4 +26,9 @@ class MenuBlock: BaseUI {
         icon.image = image
         self.text.text = text
     }
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        delegate?.menuBlockButtonPressed()
+    }
+    
 }

@@ -8,8 +8,8 @@
 import UIKit
 import SnapKit
 
-class MonoPageViewController: UIViewController {
-
+class MonoPageViewController: UIViewController, MenuBlockDelegate {
+  
     private var topView: UIView!
     private var topLabel: UILabel!
     private var currencyView: UIView!
@@ -72,6 +72,14 @@ class MonoPageViewController: UIViewController {
             make.height.equalTo(200)
             
         }
+        
+        partBuy.delegate = self
+        archive.delegate = self
+        instalments.delegate = self
+    }
+    
+    func menuBlockButtonPressed() {
+        print("Button pressed!")
     }
     
     func setupHeaderViewConstraints() {
