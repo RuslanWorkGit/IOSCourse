@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9BF8FD192CB64EA7009EB5AE /* Live-7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live-7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA5DA652CC93A72005F5610 /* Live-7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live-7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9BF8FD2B2CB64EA8009EB5AE /* Exceptions for "Live-7" folder in "Live-7" target */ = {
+		9BA5DA772CC93A73005F5610 /* Exceptions for "Live-7" folder in "Live-7" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 9BF8FD182CB64EA7009EB5AE /* Live-7 */;
+			target = 9BA5DA642CC93A72005F5610 /* Live-7 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9BF8FD1B2CB64EA7009EB5AE /* Live-7 */ = {
+		9BA5DA672CC93A72005F5610 /* Live-7 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9BF8FD2B2CB64EA8009EB5AE /* Exceptions for "Live-7" folder in "Live-7" target */,
+				9BA5DA772CC93A73005F5610 /* Exceptions for "Live-7" folder in "Live-7" target */,
 			);
 			path = "Live-7";
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BF8FD162CB64EA7009EB5AE /* Frameworks */ = {
+		9BA5DA622CC93A72005F5610 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BF8FD102CB64EA7009EB5AE = {
+		9BA5DA5C2CC93A72005F5610 = {
 			isa = PBXGroup;
 			children = (
-				9BF8FD1B2CB64EA7009EB5AE /* Live-7 */,
-				9BF8FD1A2CB64EA7009EB5AE /* Products */,
+				9BA5DA672CC93A72005F5610 /* Live-7 */,
+				9BA5DA662CC93A72005F5610 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9BF8FD1A2CB64EA7009EB5AE /* Products */ = {
+		9BA5DA662CC93A72005F5610 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BF8FD192CB64EA7009EB5AE /* Live-7.app */,
+				9BA5DA652CC93A72005F5610 /* Live-7.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BF8FD182CB64EA7009EB5AE /* Live-7 */ = {
+		9BA5DA642CC93A72005F5610 /* Live-7 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BF8FD2C2CB64EA8009EB5AE /* Build configuration list for PBXNativeTarget "Live-7" */;
+			buildConfigurationList = 9BA5DA782CC93A73005F5610 /* Build configuration list for PBXNativeTarget "Live-7" */;
 			buildPhases = (
-				9BF8FD152CB64EA7009EB5AE /* Sources */,
-				9BF8FD162CB64EA7009EB5AE /* Frameworks */,
-				9BF8FD172CB64EA7009EB5AE /* Resources */,
+				9BA5DA612CC93A72005F5610 /* Sources */,
+				9BA5DA622CC93A72005F5610 /* Frameworks */,
+				9BA5DA632CC93A72005F5610 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9BF8FD1B2CB64EA7009EB5AE /* Live-7 */,
+				9BA5DA672CC93A72005F5610 /* Live-7 */,
 			);
 			name = "Live-7";
 			packageProductDependencies = (
 			);
 			productName = "Live-7";
-			productReference = 9BF8FD192CB64EA7009EB5AE /* Live-7.app */;
+			productReference = 9BA5DA652CC93A72005F5610 /* Live-7.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9BF8FD112CB64EA7009EB5AE /* Project object */ = {
+		9BA5DA5D2CC93A72005F5610 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					9BF8FD182CB64EA7009EB5AE = {
+					9BA5DA642CC93A72005F5610 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 9BF8FD142CB64EA7009EB5AE /* Build configuration list for PBXProject "Live-7" */;
+			buildConfigurationList = 9BA5DA602CC93A72005F5610 /* Build configuration list for PBXProject "Live-7" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9BF8FD102CB64EA7009EB5AE;
+			mainGroup = 9BA5DA5C2CC93A72005F5610;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9BF8FD1A2CB64EA7009EB5AE /* Products */;
+			productRefGroup = 9BA5DA662CC93A72005F5610 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BF8FD182CB64EA7009EB5AE /* Live-7 */,
+				9BA5DA642CC93A72005F5610 /* Live-7 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9BF8FD172CB64EA7009EB5AE /* Resources */ = {
+		9BA5DA632CC93A72005F5610 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BF8FD152CB64EA7009EB5AE /* Sources */ = {
+		9BA5DA612CC93A72005F5610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9BF8FD2D2CB64EA8009EB5AE /* Debug */ = {
+		9BA5DA792CC93A73005F5610 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -166,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		9BF8FD2E2CB64EA8009EB5AE /* Release */ = {
+		9BA5DA7A2CC93A73005F5610 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -194,7 +194,7 @@
 			};
 			name = Release;
 		};
-		9BF8FD2F2CB64EA8009EB5AE /* Debug */ = {
+		9BA5DA7B2CC93A73005F5610 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		9BF8FD302CB64EA8009EB5AE /* Release */ = {
+		9BA5DA7C2CC93A73005F5610 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BF8FD142CB64EA7009EB5AE /* Build configuration list for PBXProject "Live-7" */ = {
+		9BA5DA602CC93A72005F5610 /* Build configuration list for PBXProject "Live-7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BF8FD2F2CB64EA8009EB5AE /* Debug */,
-				9BF8FD302CB64EA8009EB5AE /* Release */,
+				9BA5DA7B2CC93A73005F5610 /* Debug */,
+				9BA5DA7C2CC93A73005F5610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BF8FD2C2CB64EA8009EB5AE /* Build configuration list for PBXNativeTarget "Live-7" */ = {
+		9BA5DA782CC93A73005F5610 /* Build configuration list for PBXNativeTarget "Live-7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BF8FD2D2CB64EA8009EB5AE /* Debug */,
-				9BF8FD2E2CB64EA8009EB5AE /* Release */,
+				9BA5DA792CC93A73005F5610 /* Debug */,
+				9BA5DA7A2CC93A73005F5610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9BF8FD112CB64EA7009EB5AE /* Project object */;
+	rootObject = 9BA5DA5D2CC93A72005F5610 /* Project object */;
 }
