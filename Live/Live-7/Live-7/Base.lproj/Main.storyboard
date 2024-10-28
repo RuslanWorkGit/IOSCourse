@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="694-uw-Vyc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GHf-Vi-Xhg">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
@@ -8,10 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="Baj-O4-DhQ">
             <objects>
                 <navigationController id="694-uw-Vyc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="48P-EL-3C7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="z18-VI-BpM">
                         <rect key="frame" x="0.0" y="62" width="402" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -23,6 +24,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U5m-n8-MKz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1007" y="3"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xfP-7v-4ZO">
+            <objects>
+                <tabBarController id="GHf-Vi-Xhg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AOI-Aq-rGA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="694-uw-Vyc" kind="relationship" relationship="viewControllers" id="gZg-Gm-hDa"/>
+                        <segue destination="ATE-nm-MhQ" kind="relationship" relationship="viewControllers" id="efo-KZ-oy4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TSb-65-A1G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1906" y="1230"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ezD-et-9Dn">
+            <objects>
+                <viewController storyboardIdentifier="ComercialViewController" id="ATE-nm-MhQ" customClass="ComercialViewController" customModule="Live_7" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zzR-qT-Wl8">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pKf-2q-0Zt">
+                                <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ATE-nm-MhQ" id="lzg-qh-Q51"/>
+                                    <outlet property="delegate" destination="ATE-nm-MhQ" id="Jaq-wa-6do"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xYb-gX-bsy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pKf-2q-0Zt" firstAttribute="leading" secondItem="xYb-gX-bsy" secondAttribute="leading" id="NgI-MH-DEz"/>
+                            <constraint firstItem="pKf-2q-0Zt" firstAttribute="trailing" secondItem="xYb-gX-bsy" secondAttribute="trailing" id="Psy-Mv-DQW"/>
+                            <constraint firstAttribute="bottom" secondItem="pKf-2q-0Zt" secondAttribute="bottom" id="TK2-g9-6YO"/>
+                            <constraint firstItem="pKf-2q-0Zt" firstAttribute="top" secondItem="zzR-qT-Wl8" secondAttribute="top" id="kUy-zN-fZz"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Xoa-b0-qxQ"/>
+                    <connections>
+                        <outlet property="tableView" destination="pKf-2q-0Zt" id="zfU-B1-wDU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Td-Yb-ndq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-913.43283582089543" y="1738.9016018306636"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

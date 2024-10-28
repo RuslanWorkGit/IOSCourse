@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9BA5DA772CC93A73005F5610 /* Exceptions for "Live-7" folder in "Live-7" target */ = {
+		9BA5DAC82CCFC0A6005F5610 /* Exceptions for "Live-7" folder in "Live-7" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9BA5DA672CC93A72005F5610 /* Live-7 */ = {
+		9BA5DABA2CCFC0A6005F5610 /* Live-7 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9BA5DA772CC93A73005F5610 /* Exceptions for "Live-7" folder in "Live-7" target */,
+				9BA5DAC82CCFC0A6005F5610 /* Exceptions for "Live-7" folder in "Live-7" target */,
 			);
 			path = "Live-7";
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		9BA5DA5C2CC93A72005F5610 = {
 			isa = PBXGroup;
 			children = (
-				9BA5DA672CC93A72005F5610 /* Live-7 */,
+				9BA5DABA2CCFC0A6005F5610 /* Live-7 */,
 				9BA5DA662CC93A72005F5610 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9BA5DA672CC93A72005F5610 /* Live-7 */,
+				9BA5DABA2CCFC0A6005F5610 /* Live-7 */,
 			);
 			name = "Live-7";
 			packageProductDependencies = (
