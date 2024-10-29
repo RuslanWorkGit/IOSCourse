@@ -32,7 +32,6 @@ extension ComercialViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ComercialTableViewCell") as! ComercialTableViewCell
-        
         cell.configure(with: arrayOfPeople[indexPath.row])
         return cell
     }

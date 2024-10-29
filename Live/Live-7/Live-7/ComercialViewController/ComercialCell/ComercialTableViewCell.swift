@@ -27,6 +27,7 @@ class ComercialTableViewCell: UITableViewCell {
         secondLabel.text = person.job.company
         thirdLabel.text = person.location.city
         descriptionLabel.text = person.differentSizeDescription
+        avatarImageView.layer.cornerRadius = 30
         
     }
 
