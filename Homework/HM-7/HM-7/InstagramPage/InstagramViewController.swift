@@ -16,19 +16,25 @@ class InstagramViewController: UIViewController {
         
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.separatorStyle = .none
+        
+        let nib = UINib(nibName: "CustomInstagramTableViewCell", bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: "CustomInstagramTableViewCell")
+        tableView.reloadData()
     }
-    
-
     
 }
 
 extension InstagramViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        arrayOfPosts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CustomInstagramTableViewCell") as? CustomInstagramTableViewCell else { return UITableViewCell()}
+        cell.configure(with: arrayOfPosts[indexPath.row])
+        cell.selectionStyle = .none
+        return cell
     }
     
     

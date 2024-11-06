@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "types-of-fluffy-cat-breeds-ragdoll-664670a9d2268.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
